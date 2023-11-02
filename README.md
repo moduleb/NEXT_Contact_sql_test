@@ -4,10 +4,10 @@
 ## Предметная область
 В компании есть несколько проектов (`PROJECTS`), которые требуют определенных навыков (`SKILLS`) для поддержки. Информация о необходимых навыках для каждого проекта хранится в таблице `REL_PROJECT_SKILL`. Сотрудники (`USERS`), занятые поддержкой проектов, должны обладать определенными навыками (`SKILLS`). Данные о навыках, которыми владеет каждый сотрудник, содержатся в таблице `REL_USER_SKILL`. В таблицах связей присутствуют внешние ключи. Логическая схема базы данных представлена ниже.
 
-<img src="(https://github.com/ModuleB/NEXT_Contact_sql_test/blob/main/image.png" width="200" height="100">
+<img src="https://github.com/ModuleB/NEXT_Contact_sql_test/blob/main/image.png" height="300">
 
-P - primary key
-F - foreign key
+- `P` - primary key
+- `F` - foreign key
 
 ### 1. Получение уникального списка имен сотрудников
 ```sql
