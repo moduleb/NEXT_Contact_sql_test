@@ -56,4 +56,3 @@ WHERE result = 'ok'
 GROUP BY user_name;
 ```
 
-Это ваше тестовое задание по базам данных, представленное в формате Markdown.
